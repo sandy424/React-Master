@@ -1,10 +1,10 @@
-import TimeAttack from "../components/TimeAttack"
+import UseMemo from '../components/UseMemo';
 
 function App() {
 
   return (
     <div>
-      <TimeAttack />
+      <UseMemo />
     </div>
   )
 }
