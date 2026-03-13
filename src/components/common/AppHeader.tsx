@@ -1,3 +1,4 @@
+import SignUp from "@/pages/SignUp";
 import { Separator } from "../ui/separator";
 
 function AppHeader() {
@@ -16,7 +17,8 @@ function AppHeader() {
                 
                 
                 {/* 로그인 UI */}
-                <div className="font-semibold text-muted-foreground hover:text-white transition-all duration-500 cursor-pointer">로그인</div>
+                <div className="font-semibold text-muted-foreground hover:text-white transition-all duration-500 cursor-pointer" 
+                onClick={navigator(<SignUp/>)}>로그인</div>
             </div>
         </header>
     )
